@@ -4,6 +4,11 @@ A small gem for figuring out which bank a swedish clearing number belongs to. It
 
 Data is taken from [Swedish Bankers Association](http://www.swedishbankers.se/media/1253/1601_clearingnummer.pdf) in 2016. If you know it's been updated, please make a PR with corrections.
 
+## Installing
+````
+gem install clearingnumbers
+````
+
 ## Usage
 The gem has three functions, it's a small gem.
 
