@@ -26,6 +26,6 @@ class ClearingNumbers
   end
 
   def self.banks
-    YAML.load_file "lib/banks.yml"
+    YAML.load_file File.join(File.dirname(__FILE__),"banks.yml")
   end
 end
