@@ -26,7 +26,7 @@ class ClearingNumbers
   def self.banks
     [
       {
-        "name" => "Royal bank of Scotland",
+        "name" => "RBS",
         "ranges" => [
           {
             "min" => 9090,
@@ -35,7 +35,16 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Amfa bank",
+        "name" => "Kommuninvest",
+        "ranges" => [
+          {
+            "min" => 9955,
+            "max" => 9955
+          }
+        ]
+      },
+      {
+        "name" => "Amfa Bank",
         "ranges" => [
           {
             "min" => 9660,
@@ -44,7 +53,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Avanza bank",
+        "name" => "Avanza Bank",
         "ranges" => [
           {
             "min" => 9550,
@@ -53,7 +62,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Marginalen bank",
+        "name" => "Marginalen Bank",
         "ranges" => [
           {
             "min" => 9230,
@@ -71,7 +80,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Calyon bank",
+        "name" => "Calyon Bank",
         "ranges" => [
           {
             "min" => 9080,
@@ -89,7 +98,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Danske bank",
+        "name" => "Danske Bank",
         "ranges" => [
           {
             "min" => 1200,
@@ -106,7 +115,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "DNB bank",
+        "name" => "DNB Bank",
         "ranges" => [
           {
             "min" => 9190,
@@ -137,7 +146,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Forex bank",
+        "name" => "Forex Bank",
         "ranges" => [
           {
             "min" => 9400,
@@ -146,7 +155,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Fortis bank",
+        "name" => "Fortis Bank",
         "ranges" => [
           {
             "min" => 9470,
@@ -155,7 +164,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Santander Consumer bank",
+        "name" => "GE Money Bank",
         "ranges" => [
           {
             "min" => 9460,
@@ -173,7 +182,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "ICA banken",
+        "name" => "ICA Banken",
         "ranges" => [
           {
             "min" => 9270,
@@ -182,7 +191,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Ikano bank",
+        "name" => "IKANO Bank",
         "ranges" => [
           {
             "min" => 9170,
@@ -200,7 +209,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Landshypotek bank",
+        "name" => "Landshypotek",
         "ranges" => [
           {
             "min" => 9390,
@@ -209,7 +218,16 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Länsförsäkringar bank",
+        "name" => "Netfonds Bank (ub)",
+        "ranges" => [
+          {
+            "min" => 9720,
+            "max" => 9729
+          }
+        ]
+      },
+      {
+        "name" => "Länsförsäkringar Bank",
         "ranges" => [
           {
             "min" => 3400,
@@ -226,16 +244,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Lönneberga-Tuna-Vena Sparbank",
-        "ranges" => [
-          {
-            "min" => "8393-1",
-            "max" => "8393-1"
-          }
-        ]
-      },
-      {
-        "name" => "MedMera bank",
+        "name" => "MedMera Bank",
         "ranges" => [
           {
             "min" => 9650,
@@ -257,6 +266,14 @@ class ClearingNumbers
           {
             "min" => 3000,
             "max" => 3299
+          },
+          {
+            "min" => 3300,
+            "max" => 3300
+          },
+          {
+            "min" => 3782,
+            "max" => 3782
           },
           {
             "min" => 3301,
@@ -281,20 +298,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Nordea Personkonto",
-        "ranges" => [
-          {
-            "min" => 3300,
-            "max" => 3300
-          },
-          {
-            "min" => 3782,
-            "max" => 3782
-          }
-        ]
-      },
-      {
-        "name" => "Nordnet bank",
+        "name" => "Nordnet Bank",
         "ranges" => [
           {
             "min" => 9100,
@@ -316,16 +320,7 @@ class ClearingNumbers
         "ranges" => [
           {
             "min" => 9880,
-            "max" => 9889
-          }
-        ]
-      },
-      {
-        "name" => "Nykredit",
-        "ranges" => [
-          {
-            "min" => 9950,
-            "max" => 9950
+            "max" => 9899
           }
         ]
       },
@@ -384,7 +379,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Volvofinans bank",
+        "name" => "Volvofinans Bank",
         "ranges" => [
           {
             "min" => 9610,
@@ -402,7 +397,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Lån & Spar bank",
+        "name" => "Lån & Spar Bank",
         "ranges" => [
           {
             "min" => 9630,
@@ -429,15 +424,6 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Parex bank",
-        "ranges" => [
-          {
-            "min" => 9480,
-            "max" => 9489
-          }
-        ]
-      },
-      {
         "name" => "Privatgirot",
         "ranges" => [
           {
@@ -447,7 +433,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Resurs bank",
+        "name" => "Resurs Bank",
         "ranges" => [
           {
             "min" => 9280,
@@ -456,16 +442,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Sala Sparbank",
-        "ranges" => [
-          {
-            "min" => 8284,
-            "max" => 8284
-          }
-        ]
-      },
-      {
-        "name" => "SalusAnsvar bank",
+        "name" => "SalusAnsvar Bank",
         "ranges" => [
           {
             "min" => 9231,
@@ -474,16 +451,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Sambox",
-        "ranges" => [
-          {
-            "min" => 2950,
-            "max" => 2950
-          }
-        ]
-      },
-      {
-        "name" => "SBAB bank",
+        "name" => "SBAB Bank",
         "ranges" => [
           {
             "min" => 9250,
@@ -518,46 +486,6 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Sparbanken i Enköping",
-        "ranges" => [
-          {
-            "min" => 7121,
-            "max" => 7122
-          },
-          {
-            "min" => "8305-5",
-            "max" => "8305-5"
-          }
-        ]
-      },
-      {
-        "name" => "Sparbanken Skåne",
-        "ranges" => [
-          {
-            "min" => "8313-9",
-            "max" => "8313-9"
-          }
-        ]
-      },
-      {
-        "name" => "Sparbanken Alingsås",
-        "ranges" => [
-          {
-            "min" => "8304-8",
-            "max" => "8304-8"
-          }
-        ]
-      },
-      {
-        "name" => "Sparbanken Nord",
-        "ranges" => [
-          {
-            "min" => 8264,
-            "max" => 8264
-          }
-        ]
-      },
-      {
         "name" => "Sparbanken Syd",
         "ranges" => [
           {
@@ -567,7 +495,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Sveriges riksbank",
+        "name" => "Sveriges Riksbank",
         "ranges" => [
           {
             "min" => 1000,
@@ -579,20 +507,16 @@ class ClearingNumbers
         "name" => "Swedbank",
         "ranges" => [
           {
-            "min" => 8000,
-            "max" => 8999
-          },
-          {
             "min" => 7000,
-            "max" => 7999
-          },
-          {
-            "min" => 7123,
-            "max" => 8104
+            "max" => 8999
           },
           {
             "min" => 9300,
             "max" => 9349
+          },
+          {
+            "min" => "8305-5",
+            "max" => "8305-5"
           },
           {
             "min" => "8383-2",
@@ -629,6 +553,10 @@ class ClearingNumbers
           {
             "min" => "8059-8",
             "max" => "8059-8"
+          },
+          {
+            "min" => "8060-6",
+            "max" => "8060-6"
           },
           {
             "min" => "8077-0",
@@ -759,6 +687,10 @@ class ClearingNumbers
             "max" => "8313-9"
           },
           {
+            "min" => "8314-7",
+            "max" => "8314-7"
+          },
+          {
             "min" => "8327-9",
             "max" => "8327-9"
           },
@@ -850,15 +782,6 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Falkenbergs sparbank",
-        "ranges" => [
-          {
-            "min" => "8060-6",
-            "max" => "8060-6"
-          }
-        ]
-      },
-      {
         "name" => "Sölvesborg-Mjällby sparbank",
         "ranges" => [
           {
@@ -886,7 +809,7 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "HäradsSparbanken Mönsterås",
+        "name" => "Häradssparbanken Mönsterås",
         "ranges" => [
           {
             "min" => "8331-1",
@@ -913,15 +836,6 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Sparbanken Alingsås",
-        "ranges" => [
-          {
-            "min" => "8304-8",
-            "max" => "8304-8"
-          }
-        ]
-      },
-      {
         "name" => "Skurups sparbank",
         "ranges" => [
           {
@@ -940,20 +854,20 @@ class ClearingNumbers
         ]
       },
       {
-        "name" => "Sparbanken Lidköping",
-        "ranges" => [
-          {
-            "min" => "8314-7",
-            "max" => "8314-7"
-          }
-        ]
-      },
-      {
         "name" => "Kinda-Ydre sparbank",
         "ranges" => [
           {
             "min" => "8158-8",
             "max" => "8158-8"
+          }
+        ]
+      },
+      {
+        "name" => "VP Securities A/S",
+        "ranges" => [
+          {
+            "min" => 9956,
+            "max" => 9956
           }
         ]
       },
@@ -966,6 +880,6 @@ class ClearingNumbers
           }
         ]
       }
-    ]
+    ]    
   end
 end
