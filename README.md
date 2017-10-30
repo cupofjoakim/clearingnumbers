@@ -14,28 +14,28 @@ gem install clearingnumbers
 ## Usage
 The gem has three functions, it's a small gem.
 
-````
+````ruby
 require 'clearingnumbers'
 ````
 
 ### Identify a bank from a clearing number
-````
+````ruby
 bank_name = ClearingNumbers.get_bank_name_from_clearing("8156-2")
 ````
 or 
-````
+````ruby
 bank_name = ClearingNumbers.get_bank_name_from_clearing(1234)
 ````
 *Takes both ints and strings. Returns nil if no match is found*
 
 ### List all registered banks:
-````
+````ruby
 ClearingNumbers.bank_names
 ````
 *Returns array of bank names as strings*
 
 ### Get all valid clearing number ranges for a bank:
-````
+````ruby
 ClearingNumbers.clearing_numbers_for_bank("Swedbank")
 ````
 *Argument must be a string, returns array of ranges in hashes*
